@@ -18,7 +18,9 @@ The California Department of Justice reports county-level crime data from 1980-2
 Finally, I pulled yearly population estimates for each county from the California Association of Counties. I used these estimates in conjunction with the DOJ Arrests data to find the arrests per capita for each county and year.
 
 ## Analysis
-The first question I wanted to answer was "Which counties prioritize each of my selected budget categories?"
-To answer this, I created a Pandas DataFrame from the county budget data and added columns for the total spending in the three selected categories, and then columns for each category as a proportion of the total. 
-![Screen Shot 2021-06-11 at 12 12 15 PM](https://user-images.githubusercontent.com/83669741/121737846-4410bd00-caae-11eb-978d-fc6842073c33.png)
+The first question I wanted to answer was "Which counties prioritize each of my selected budget categories?" \
+To answer this, I created a Pandas DataFrame from the county budget data and added columns for the total spending in the three selected categories, and then columns for each category as a proportion of the total. I then grouped the data frame by county and sorted by each spending category to collect the ten counties that spent the highest proportion in each category.
+![Screen Shot 2021-06-11 at 12 19 39 PM](https://user-images.githubusercontent.com/83669741/121738625-4f181d00-caaf-11eb-8b6f-82b78a266259.png)
+
+
 
