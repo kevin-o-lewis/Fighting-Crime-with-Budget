@@ -32,10 +32,10 @@ Next I used the Seaborn library to create a scatterplot with trend lines, plotti
 In order to approximate the correlation of each budget prioritization group with arrest rate, I isolated and compared the slopes of the trend lines below.\
 ![Screen Shot 2021-06-11 at 1 50 35 PM](https://user-images.githubusercontent.com/83669741/121747272-02870e80-cabc-11eb-9a63-5828addae736.png)
 
-By comparing the slopes of the trend lines above, I determined that although my categorized spending groups all showed a decline in violent crime arrests over the observation period, the decline in these groups was less than the average state-wide decline in violent crime arrests. At this point I formed a hypothesis test to definitively determine if there was a statistically significant difference between the groups and the state-wide average.
+By comparing the slopes of the trend lines above, I determined that although my categorized spending groups all showed a decline in violent crime arrests over the observation period, only the group of counties that prioritized mental health spending showed a decline less than the average state-wide decline in violent crime arrests. At this point I formed a hypothesis test to definitively determine if there was a statistically significant difference between each group and the state-wide average.
 
-### Null Hypothesis: There is no correlation between budget prioritization and violent crime arrests. \
-### Alternative Hypothesis: One or more of the selected budget categories will have a significantly different distribution of arrests compared to the statewide average.\
-### Hypothesis Test: If there is no correlation between spending prioritization and violent crime arrests, I would expect the counties that spent the highest proportion in each category to have the same distribution of arrests as the average of all counties.\
+<b>Null Hypothesis:</b> There is no correlation between budget prioritization and violent crime arrests. \
+Alternative Hypothesis: One or more of the selected budget categories will have a significantly different distribution of arrests compared to the statewide average.\
+Hypothesis Test: If there is no correlation between spending prioritization and violent crime arrests, I would expect the counties that spent the highest proportion in each category to have the same distribution of arrests as the average of all counties.\
 
 
