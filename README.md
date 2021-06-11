@@ -35,7 +35,7 @@ In order to approximate the correlation of each budget prioritization group with
 By comparing the slopes of the trend lines above, I determined that although my categorized spending groups all showed a decline in violent crime arrests over the observation period, only the group of counties that prioritized mental health spending showed a decline less than the average state-wide decline in violent crime arrests. At this point I formed a hypothesis test to definitively determine if there was a statistically significant difference between each group and the state-wide average.
 
 <b>Null Hypothesis:</b> There is no correlation between budget prioritization and violent crime arrests. \
-Alternative Hypothesis: One or more of the selected budget categories will have a significantly different distribution of arrests compared to the statewide average.\
-Hypothesis Test: If there is no correlation between spending prioritization and violent crime arrests, I would expect the counties that spent the highest proportion in each category to have the same distribution of arrests as the average of all counties.\
+<b>Alternative Hypothesis:</b> One or more of the selected budget categories will have a significantly different distribution of arrests compared to the statewide average.\
+<b>Hypothesis Test:</b> If there is no correlation between spending prioritization and violent crime arrests, I would expect the counties that spent the highest proportion in each category to have the same distribution of arrests as the average of all counties.\
 
 
