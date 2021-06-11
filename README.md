@@ -36,6 +36,11 @@ By comparing the slopes of the trend lines above, I determined that although my 
 
 <b>Null Hypothesis:</b> There is no correlation between budget prioritization and violent crime arrests. \
 <b>Alternative Hypothesis:</b> One or more of the selected budget categories will have a significantly different distribution of arrests compared to the statewide average.\
-<b>Hypothesis Test:</b> If there is no correlation between spending prioritization and violent crime arrests, I would expect the counties that spent the highest proportion in each category to have the same distribution of arrests as the average of all counties.\
+<b>Hypothesis Test:</b> If there is no correlation between spending prioritization and violent crime arrests, I would expect the counties that spent the highest proportion in each category to have the same distribution of arrests as the average of all counties.
+<b>Confidence Threshold:</b> 95%
 
+
+I plotted the distribution of arrests for each group with the state-wide distribution of average annual arrests and performed a t-test on each group to determine a p-value for each comparison.
+
+![Screen Shot 2021-06-11 at 2 03 08 PM](https://user-images.githubusercontent.com/83669741/121748434-cb196180-cabd-11eb-9cb2-db317b40f895.png)
 
