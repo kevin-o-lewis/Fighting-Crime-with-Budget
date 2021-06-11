@@ -1,7 +1,7 @@
 # County Spending Versus Violent Crime in California
 
 ## Overview
-An exploration of the relationship between California County Budgets and Violent Crime Arrests. This project looks at three budget categories: police, mental health services, and substance abuse services to determine if spending more in any single category will correlate with a reduction in violent crime arrests.
+An exploration of the relationship between California County Budgets and Violent Crime Arrests. This project looks at three budget categories: police, mental health services, and substance abuse services to determine if spending more in any single category will correlate with a greater than average reduction in violent crime arrests.
 
 ## Data Sources
 County Budget data 2003 to 2016: [CA State Controller Office](https://bythenumbers.sco.ca.gov/Raw-Data/Counties-Raw-Data-for-Fiscal-Years-2002-03-to-2015/esdm-5xr2) \
@@ -19,7 +19,7 @@ Finally, I pulled yearly population estimates for each county from the Californi
 
 ## Exploratory Data Analysis
 I began exploring my data in its raw form as .csv and .xslx files and used Apache Spark to run SQL queries to gather the specifc features I wanted to explore. Then I converted the query results to Pandas DataFrames to combine features and plot visualizations with Seaborn and Matplotlib. \ 
-At this point I decided to combine the violent crime arrests with population to get arrests per capita in order to avoid population variance from skewing my discovery.
+At this point I decided to combine the violent crime arrests with population to get arrests per capita in order to avoid population variance from skewing my results.
 
 ## Detailed Analysis
 The first question I wanted to answer was "Which counties prioritize each of my selected budget categories?" \
@@ -31,4 +31,12 @@ Next I used the Seaborn library to create a scatterplot with trend lines, plotti
 
 In order to approximate the correlation of each budget prioritization group with arrest rate, I isolated and compared the slopes of the trend lines below.
 ![Screen Shot 2021-06-11 at 1 50 35 PM](https://user-images.githubusercontent.com/83669741/121747272-02870e80-cabc-11eb-9a63-5828addae736.png)
+
+By comparing the slopes of the trend lines above, I determined that although my categorized spending groups all showed a decline in violent crime arrests over the observation period, the decline in these groups was less than the average state-wide decline in violent crime arrests. \
+At this point I formed a hypothesis test to definitively determine if there was a statistically significant difference between the groups and the state-wide average.\
+
+Null Hypothesis: There is no correlation between budget prioritization and violent crime arrests. \
+Alternative Hypothesis: One or more of the selected budget categories will have a significantly different distribution of arrests compared to the statewide average.\
+Hypothesis Test: If there is no correlation between spending prioritization and violent crime arrests, I would expect the counties that spent the highest proportion in each category to have the same distribution of arrests as the average of all counties.\
+
 
