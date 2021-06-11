@@ -13,4 +13,12 @@ Population Estimates: [CA State Association of Counties](https://www.counties.or
 ## Data Description
 The California State Contoller's Office reports county-level budget data for all counties except San Francisco, which has its own county controller and data management system. Due to possible differences in data collection and organization, I excluded San Francisco County from my research. I compiled data from three reports, which together spanned from 2003-2018. I then filtered that data down to three budget categories: Total Police Spending, Total Mental Health Spending, and Total Drug and Alcohol Abuse Services Spending (also referred to as "Substance Abuse Spending" throughout this project). Once I eliminated all counties that reported Zero or Null for any category in any year, I was left with 44 counties, 16 years, and 3 budget categories.
 
-The California Department of Justice reports county-level crime data from 1980-2019. The report I used contains 13 features and 97,000 rows related to the types of crimes, the demographics of the people who were arrested, and the year the arrest occurred. I filtered this dataset to include only arrests for violent crimes from 2003-2018. I further filtered it down to the 44 counties I determined as my sample while cleaning the budget data.
+The California Department of Justice reports county-level crime data from 1980-2019. The report I used contains 13 features and 97,000 rows related to the types of crimes, the demographics of the people who were arrested, and the year the arrest occurred. I filtered this dataset to include only arrests for violent crimes from 2003-2018. I further filtered it down to the 44 counties I determined as my sample while cleaning the budget data, described above.
+
+Finally, I pulled yearly population estimates for each county from the California Association of Counties. I used these estimates in conjunction with the DOJ Arrests data to find the arrests per capita for each county and year.
+
+## Analysis
+The first question I wanted to answer was "Which counties prioritize each of my selected budget categories?"
+To answer this, I created a Pandas DataFrame from the county budget data and added columns for the total spending in the three selected categories, and then columns for each category as a proportion of the total. 
+![Screen Shot 2021-06-11 at 12 12 15 PM](https://user-images.githubusercontent.com/83669741/121737846-4410bd00-caae-11eb-978d-fc6842073c33.png)
+
