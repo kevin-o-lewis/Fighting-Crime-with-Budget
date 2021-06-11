@@ -11,8 +11,7 @@ DOJ Arrests Records: [CA Dept. of Justice](https://data-openjustice.doj.ca.gov/s
 Population Estimates: [CA State Association of Counties](https://www.counties.org/sites/main/files/file-attachments/population_by_jurisdiction_and_by_county_-_1970_to_2018_-_09-07-2018.xlsx)
 
 ## Data Description and Cleaning
-The California State Contoller's Office reports county-level budget data for all counties except San Francisco, which has its own county controller and data management system. Due to possible differences in data collection and organization, I excluded San Francisco County from my research. I compiled data from three reports, which together spanned from 2003-2018. I then filtered that data down to three budget categories: Total Police Spending, Total Mental Health Spending, and Total Drug and Alcohol Abuse Services Spending (also referred to as "Substance Abuse Spending" throughout this project). Once I eliminated all counties that reported Zero or Null for any category in any year, which left me![Screen Shot 2021-06-11 at 1 50 35 PM](https://user-images.githubusercontent.com/83669741/121747272-02870e80-cabc-11eb-9a63-5828addae736.png)
- with 44 counties, 16 years, and 3 budget categories.
+The California State Contoller's Office reports county-level budget data for all counties except San Francisco, which has its own county controller and data management system. Due to possible differences in data collection and organization, I excluded San Francisco County from my research. I compiled data from three reports, which together spanned from 2003-2018. I then filtered that data down to three budget categories: Total Police Spending, Total Mental Health Spending, and Total Drug and Alcohol Abuse Services Spending (also referred to as "Substance Abuse Spending" throughout this project). Once I eliminated all counties that reported Zero or Null for any category in any year, which left me with 44 counties, 16 years, and 3 budget categories.
 
 The California Department of Justice reports county-level crime data from 1980-2019. The report I used contains 13 features and 97,000 rows related to the types of crimes, the demographics of the people who were arrested, and the year the arrest occurred. I filtered this dataset to include only arrests for violent crimes from 2003-2018. I further filtered it down to the 44 counties I determined as my sample while cleaning the budget data, described above.
 
@@ -31,5 +30,5 @@ Next I used the Seaborn library to create a scatterplot with trend lines, plotti
 ![Screen Shot 2021-06-11 at 1 17 57 PM](https://user-images.githubusercontent.com/83669741/121744230-72df6100-cab7-11eb-9c82-5ad3d73a5cb1.png)
 
 In order to approximate the correlation of each budget prioritization group with arrest rate, I isolated and compared the slopes of the trend lines below.
-
+![Screen Shot 2021-06-11 at 1 50 35 PM](https://user-images.githubusercontent.com/83669741/121747272-02870e80-cabc-11eb-9a63-5828addae736.png)
 
