@@ -45,6 +45,8 @@ I plotted the distribution of arrests for each group with the state-wide distrib
 ![Screen Shot 2021-06-11 at 2 03 08 PM](https://user-images.githubusercontent.com/83669741/121748434-cb196180-cabd-11eb-9cb2-db317b40f895.png)
 
 ## Conclusions
-The ten counties that prioritized police spending showed a statistically significant difference from the statewide mean in annual violent crime arrests. \
-The counties that prioritized Mental Health or Substance Abuse showed a statistically insignificant difference from the statewide mean. \
+The ten counties that prioritized police spending showed a statistically significant difference from the statewide mean in annual violent crime arrests. 
+
+The counties that prioritized Mental Health or Substance Abuse showed a statistically insignificant difference from the statewide mean. 
+
 With these results I’ve concluded with 95% certainty that  CA counties who spend more on police versus mental health and substance abuse programs report less violent crime arrests per year than the statewide average.
